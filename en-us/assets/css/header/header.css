@@ -1,0 +1,63 @@
+/*=================================
+  Header styling start.
+=================================*/
+header .wrapper {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu { display: flex;} 
+  
+  .menu li { margin-right: 20px;}
+  
+  .menu li a {
+    color: #848484;
+    font-size: 18px;
+    font-family: "Helvetica Neue";
+    text-transform: capitalize;
+  }
+  
+  .menu li a:hover {
+    color: #383838;
+    transition: .5s;
+  }
+  
+  header h1 { text-align: center;}
+  
+  header h1::before {
+    content: "O";
+    padding: 2px;
+    position: relative;
+    right: 10px;
+    bottom: 7px;
+    background-color: #848484;
+    font-size: 1px;
+    color: #848484;
+    border-radius: 100px;
+  }
+  
+  header h1::after {
+    content: "O";
+    padding: 2px;
+    position: relative;
+    left: 10px;
+    bottom: 7px;
+    background-color: #848484;
+    font-size: 1px;
+    color: #848484;
+    border-radius: 100px;
+  }
+  
+  header h1 a {
+    color: #383838;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  header nav, header h1, header span { flex-basis: 32%;}
+  /*=================================
+    Header styling end.
+  =================================*/

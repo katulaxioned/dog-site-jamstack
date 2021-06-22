@@ -1,0 +1,23 @@
+{
+  "name": "dog-site-jamstack",
+  "version": "1.0.0",
+  "description": "This is site created with jamstack and dog.ceo api",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katulaxioned/dog-site-jamstack.git"
+  },
+  "author": "Atul kale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katulaxioned/dog-site-jamstack/issues"
+  },
+  "homepage": "https://github.com/katulaxioned/dog-site-jamstack#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}

@@ -1,0 +1,19 @@
+/* About styling start. */
+.about h2 { 
+    margin: 20px 0;
+    font-size: 25px;
+  }
+  
+  .about h2::first-letter { text-transform: capitalize;}
+  
+  .about h2 a {
+    color: #848484;
+    text-transform: capitalize;
+  }
+  
+  .about h2 a:hover {
+    color: #383838;
+    transition: .5s;
+  }
+  
+  .about p::first-letter { text-transform: capitalize;}

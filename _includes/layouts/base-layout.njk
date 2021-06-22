@@ -1,0 +1,55 @@
+<!doctype html>
+
+<!-- If multi-language site, reconsider usage of html lang declaration here. -->
+<html lang="en"> 
+
+<head>
+ 
+    <meta charset="utf-8">
+
+    <title>{{pageTitle}}</title>
+
+    <!-- 120 word description for SEO purposes goes here. Note: Usage of lang tag. -->
+    <meta name="description" lang="en" content="The dog walks just became lot more fun with the most colorful collar-leashes for your dogs. Walk in style with your doggo! HUFT brings you the vibrant of all, only for your furry one.">
+
+    <!-- Keywords to help with SEO go here. Note: Usage of lang tag.  -->
+    <meta name="keywords" lang="en" content="Dog, dog, Dogs, dogs, Dogs site">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="preload"  href={{ "/en-us/assets/css/style.css" | url }} as="style">
+    <link rel="stylesheet"  href={{ "/en-us/assets/css/style.css" | url }}>
+
+    <link rel="preload"  href={{ "/en-us/assets/css/common.css" | url }} as="style">
+    <link rel="stylesheet"  href={{ "/en-us/assets/css/common.css" | url }}>
+
+    <link rel="preload"  href={{ "/en-us/assets/css/header/header.css" | url }} as="style">
+    <link rel="stylesheet"  href={{ "/en-us/assets/css/header/header.css" | url }}>
+
+    {% if pageStyle %}
+    <link rel="preload"  href="/en-us/assets/css/{{ pageStyle }}.css" as="style">
+    <link rel="stylesheet"  href="/en-us/assets/css/{{ pageStyle }}.css">
+    {% endif %}
+
+    <!-- Font awesome stylesheet. -->
+    <link rel="stylesheet" href="/en-us/assets/css/fontawesome/css/all.min.css">
+
+</head>
+
+<body>
+  <!-- Container start. -->
+  <div class="container">
+      {% include "partials/_header.njk" %}
+    <!-- Main section start. -->
+    <main>
+        {{ content | safe }}
+    </main>
+    <!-- Main section end. -->
+  </div>
+  <!-- Container end. -->
+
+
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>

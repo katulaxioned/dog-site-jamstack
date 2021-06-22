@@ -1,0 +1,16 @@
+/* Common styling. */
+.wrapper ul{ list-style: none;}
+.wrapper a{ text-decoration: none;}
+.wrapper button{ outline: none;}
+.wrapper input{ outline: none;}
+
+.capitalize{ 
+  text-transform: capitalize;
+}
+.uppercase{ 
+  text-transform: uppercase;
+}
+
+.common {
+  margin-bottom: 30px;
+}
