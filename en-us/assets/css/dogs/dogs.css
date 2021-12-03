@@ -1,41 +1,65 @@
 /* Dogs section styling start. */
 .dogsrandom h2 {
-    margin: 40px 0;
-    font-size: 30px;
-    color: #383838;
-    font-weight: 600;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  
-  .dogsrandom ul {
-    display: grid;
-    grid-template-columns: repeat(3, 3fr);
-    justify-content: space-between;
-    grid-gap: 20px;
-  }
-  
-  .dogsrandom li img { width: 100%;}
-  
-  .dogsrandom h4 {
-    padding: 10px 0;
-    text-align: center;
-  }
-  
-  .dogsrandom h4 a {
-    font-size: 18px;
-    color: #848484;
-    text-transform: capitalize;
-  }
-  
-  .dogsrandom h4 a:hover {
-    color: #383838;
-    transition: .5s;
-  }
-  
-  .price {
-    display: block;
-    font-size: 25px;
-    font-weight: 600;
-    text-align: center;
-  }
+  margin: 40px 0;
+  font-size: 30px;
+  color: #383838;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.dogsrandom ul {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  justify-content: space-between;
+  grid-gap: 20px;
+}
+
+.dogsrandom li img { 
+  width: 100%;
+  height: 200px;
+}
+
+.dogsrandom h4 {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.dogsrandom h4 a {
+  font-size: 18px;
+  color: #848484;
+  text-transform: capitalize;
+}
+
+.dogsrandom h4 a:hover {
+  color: #383838;
+  transition: .5s;
+}
+
+.price {
+  display: block;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination li {
+  margin: 0 5px;
+  padding: 2px 5px;
+  border: 1px solid #848484;
+  border-radius: 5px;
+}
+
+.pagination li { color: #383838;}
+
+.pagination li a:hover {
+  background-color: #383838;
+  color: #fff;
+  transition: .5s;
+}
